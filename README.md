@@ -62,13 +62,11 @@ INR on the largest day) without distorting the underlying pattern.
 
 ### 4. RFM Transformation
 Computed Recency, Frequency, and Monetary per customer using vectorized
-`groupby().agg()` (avoiding slow per-row `apply`/`lambda` aggregations).
+`groupby().agg()` 
 
 ### 5. Segmentation
 Scored each customer 1–5 on R and F via quintiles, then mapped all 25 (R, F)
-combinations to 10 named segments using an explicit lookup table (chosen over nested
-`if/elif` chains to avoid unreachable/overlapping conditions).
-
+combinations to 10 named segments using an explicit lookup table 
 ### 6. Segment Analysis & Recommendations
 Customer count, revenue share, and suggested action per segment.
 
