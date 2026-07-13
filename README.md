@@ -33,11 +33,9 @@ Python · pandas · NumPy · matplotlib · seaborn
    applied 99th-percentile capping *for visualization only* — the actual RFM
    calculation uses uncapped values, to avoid understating top customers' true value
 4. **RFM Transformation** — computed Recency, Frequency, and Monetary per customer
-   using vectorized `groupby().agg()` (avoiding slow per-row `apply`/`lambda`
-   aggregations)
+   using vectorized `groupby().agg()`
 5. **Segmentation** — scored each customer 1–5 on R and F via quintiles, then mapped
    all 25 (R, F) combinations to 10 named segments using an explicit lookup table
-   (chosen over nested `if/elif` chains to avoid unreachable/overlapping conditions)
 6. **Segment Analysis & Recommendations** — customer count, revenue share, and
    suggested action per segment
 
