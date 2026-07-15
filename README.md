@@ -294,15 +294,6 @@ Place `bank_transactions.csv` inside the `data/` directory and run the notebook 
 
 ---
 
-# Future Improvements
-
-- Customer Lifetime Value (CLV)
-- Churn Prediction
-- Interactive Streamlit Dashboard
-- Campaign Performance Analysis
-- Marketing ROI Analysis
-
----
 
 # Conclusion
 
