@@ -275,16 +275,6 @@ This validates that the segmentation successfully identifies economically valuab
 
 ---
 
-# Future Improvements
-
-- Customer Lifetime Value (CLV)
-- Churn Prediction
-- Interactive Streamlit Dashboard
-- Campaign Performance Analysis
-- Marketing ROI Evaluation
-
----
-
 # Conclusion
 
 This project demonstrates an end-to-end customer analytics workflow that combines technical implementation with business interpretation to transform raw banking transaction data into actionable customer segments.
