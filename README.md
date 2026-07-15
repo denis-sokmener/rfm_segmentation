@@ -50,7 +50,7 @@ pulled in — and the visible spike at 20,000 INR in the "After Capping" chart i
 direct signature of that operation. **The actual RFM calculation uses the original,
 uncapped values**, to avoid understating top customers' true value.
 
-<img src="output/transaction_over_time.png" width="750"/>
+<img src="output/transaction_over_time2.png" width="750"/>
 
 *Before capping.*
 
