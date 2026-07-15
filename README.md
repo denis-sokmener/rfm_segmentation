@@ -228,14 +228,15 @@ This independently validates that the segmentation successfully identifies econo
 - Most customers completed only a single transaction during the observation period.
 - Spending increases substantially only among the most active customers.
 - Recent Customers represent a valuable opportunity for conversion into Loyal Customers.
-
+- The transaction volume exhibits a strong Pareto effect, where a highly right-skewed minority of customers drives the vast majority of total transaction value.
+- While retention efforts must heavily focus on protecting high-value 'Champions', acquisition and growth campaigns should explore mass-market micro-transaction products to activate the dormant lower-spending segments.
+  
 ---
-
 # Limitations
 
 - The dataset covers only approximately two months.
 - Frequency ranges only from 1 to 6 transactions, limiting its discriminative power.
-- Customer segmentation is based only on Recency and Frequency.
+- Customer segmentation is based only on Recency and Frequency. (The reason is explained in # 5. Customer Segmentation)
 - Monetary is used for validation rather than segmentation.
 - Results may differ when applied to datasets with longer observation periods.
 
