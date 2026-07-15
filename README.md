@@ -246,7 +246,7 @@ This independently validates that the segmentation successfully identifies econo
 ```text
 .
 ├── data/
-│   └── bank_transactions.csv
+│   └── bank_transactions.csv (It should be manually added due to size of the file)
 │
 ├── output/
 │   ├── avg_monetary_by_r_and_f.png
